@@ -13,13 +13,13 @@ On Windows: `>build.bat`
 
 
 ###To run WDB, do the following:
-**On UN*X**
+**On UN*X:**
 ```
 $ cd build/classes
 $ export INSTANCE_ROOT="."
 $ java -cp "../../lib/je.jar:." wdb.WDB
 ```
-**On Windows**
+**On Windows:**
 ```
 $ cd build/classes
 $ export INSTANCE_ROOT="."
