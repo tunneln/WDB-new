@@ -1,7 +1,7 @@
 #Web Database (WDB)
 
 ###What is WDB?
-WDB is a semantic database management system developed by Dr. Phil Cannata and Bo Li. WDB is based on the Semantic Information Manager (SIM) and semantic data model developed by Doug Tolbert. The purpose of the database was to more accurately capture the meaning of the data and it's relationships so that the Schema better represents the corresonding real world objects.
+WDB is a semantic database management system developed by Dr. Phil Cannata and Bo Li. WDB was built in Java and based on the Semantic Information Manager (SIM) and semantic data model developed by Doug Tolbert. The purpose of the database was to more accurately capture the meaning of the data and it's relationships so that the Schema better represents the corresonding real world objects.
 
 ###What is WDB-new?
 WDB-new is my re-implementation of the WDB system on top of Oracle NoSQL DB. WDB was originally implemented on top of [Berkley DB JE](https://blogs.oracle.com/charlesLamb/entry/oracle_nosql_database_vs_berkeley) - an embedded database for key/value stores intially developed by Sleepycat.
