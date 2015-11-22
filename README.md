@@ -26,6 +26,6 @@ $ java -cp "../../lib/je.jar:." wdb.WDB
 
 
 ###More on WDB
-WDB's higher-level database model enables the database designer and the users to see a conceptual view of the database. A benefit of this in practice is that the schema is able to capture nearly all of the semantics of the database. This essentially allows one to go **directly** from the Conceptual Model to a Schema, as opposed to the fiasco of having to go from a Conceptual to Logical to Physical Model *and then* to a Schema, as you would with a relational database. This benefit also brings with it optimizations to queries, such as never having to JOIN tables, since the relationships are already defined within the schema itself.
+WDB's higher-level database model enables the database designer and the users to see a conceptual view of the database. A benefit of this in practice is that the schema is able to capture nearly all of the semantics of the database. This essentially allows for a data modeler to go directly from the Conceptual Model to a Schema, as opposed to the fiasco of having to go from a Conceptual to Logical to Physical Model *and only then* to a Schema, as you would with a relational database. This benefit also brings with it optimizations to queries, such as never having to JOIN tables, since the relationships are already defined within the schema itself.
 
 Even more on WDB can be found [here](http://www.cs.utexas.edu/~cannata/dbms/web-pages/Class%20Notes/02%20Data%20Models/Bo%20Li%20Thesis.pdf) 
