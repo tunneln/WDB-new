@@ -14,13 +14,13 @@ WDB-new is my re-implementation of the WDB system on top of the Oracle NoSQL DB.
 ```
 $ cd build/classes
 $ export INSTANCE_ROOT="."
-$ java -cp "../../lib/je.jar:." wdb.WDB
+$ java -cp "../../lib/*:." wdb.WDB
 ```
 **On Windows**
 ```
 > cd build/classes
 > export INSTANCE_ROOT="."
-> java -cp "..\..\lib\je.jar;." wdb.WDB
+> java -cp "..\..\lib\*;." wdb.WDB
 ```
 
 
