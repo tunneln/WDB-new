@@ -8,6 +8,9 @@ package wdb;
 
 import java.io.File;
 
+import oracle.kv.*;
+import oracle.kv.avro.*;
+
 import com.sleepycat.bind.serial.StoredClassCatalog;
 import com.sleepycat.je.Database;
 import com.sleepycat.je.DatabaseConfig;

@@ -11,6 +11,9 @@ import wdb.metadata.*;
 import com.sleepycat.bind.EntryBinding;
 import com.sleepycat.bind.serial.SerialBinding;
 
+import oracle.kv.avro.*;
+import oracle.kv.*;
+
 import com.sleepycat.je.LockMode;
 import com.sleepycat.je.OperationStatus;
 import com.sleepycat.je.DatabaseEntry;
